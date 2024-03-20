@@ -43,18 +43,34 @@ main img{
 }
 .homesecondary{
     text-align: center;
+    justify-content: center;
+
+}
+.textsection{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    max-width: 40vw;
+    height: 10vw;
+    text-align: justify;
+    margin-right: 2rem;
+    box-sizing: content-box
+
 }
 
 .homesecondary p{
-    display: inline-block;
-    max-width: 40vw;
-    text-align: justify;
-    margin-right: 2rem;
+    color:palevioletred;
+    display: inline;
+    width: 30vw;
+
+    
+    
 }
 
 .homesecondary img{
 
-    display: inline;
+    display: inline-block;
     width: 20vw;
     height: 20vw;
 
