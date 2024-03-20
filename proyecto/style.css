@@ -1,0 +1,69 @@
+body{
+    background-color: pink;
+    margin: 0;
+}
+
+header{
+
+    background-color: palevioletred;
+
+}
+
+header img{
+    height: 10vh;
+    width: 10vh;
+    display: inline;
+    padding-left: 70vw;
+
+}
+
+nav{
+    margin:0;
+    display: inline-block;
+    margin: 1rem 1rem 2rem 4rem;
+}
+
+nav a{
+    background-color: purple;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+main img{
+    width: 60vw;
+    height: 20vw;
+    border: 3px solid white;
+}
+
+.homeprincipal{
+    text-align: center;
+    padding-bottom: 10vh;
+}
+.homesecondary{
+    text-align: center;
+}
+
+.homesecondary p{
+    display: inline-block;
+    max-width: 40vw;
+    text-align: justify;
+    margin-right: 2rem;
+}
+
+.homesecondary img{
+
+    display: inline;
+    width: 20vw;
+    height: 20vw;
+
+}
+footer{
+    background-color: palevioletred;
+    padding: 3vh;
+    text-align: center;
+    color: white;
+
+}
+
