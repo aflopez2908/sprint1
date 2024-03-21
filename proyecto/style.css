@@ -1,7 +1,10 @@
+/*estilos generlas*/
+
 body{
     background-color: pink;
     margin: 0;
 }
+/*estilos del header*/
 
 header{
 
@@ -31,6 +34,8 @@ nav a{
     border: 2px solid black;
 }
 
+/*estilos de la pagina home*/
+
 main img{
     width: 60vw;
     height: 20vw;
@@ -47,7 +52,7 @@ main img{
 
 }
 .textsection{
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     display: inline-block;
@@ -55,17 +60,18 @@ main img{
     height: 10vw;
     text-align: justify;
     margin-right: 2rem;
-    box-sizing: content-box
+    box-sizing: content-box;
 
 }
-
 .homesecondary p{
     color:palevioletred;
     display: inline;
     width: 30vw;
+    position: relative;
+    bottom: 14vw; 
+    left: 1rem;
+   
 
-    
-    
 }
 
 .homesecondary img{
@@ -75,6 +81,9 @@ main img{
     height: 20vw;
 
 }
+
+
+/*estilo del footer*/
 footer{
     background-color: palevioletred;
     padding: 3vh;
@@ -83,3 +92,31 @@ footer{
 
 }
 
+
+/*estilo de la pagina about*/
+.main_about{
+    text-align: center;
+    color:palevioletred;
+    
+
+}
+
+.space{
+
+    padding: 1rem;
+    padding-right:40vw ;
+
+}
+
+.space img{
+    height: 25vw;
+    width: 25vw;
+    display: inline;
+}
+
+.space p{
+    display: inline-block;
+    max-width: 40%;
+    padding-left: 2rem;
+    position: absolute;
+}
