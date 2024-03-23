@@ -1,43 +1,70 @@
 /*estilos generlas*/
 
 body{
-    background-color: pink;
+    background-color: #47aed8;
     margin: 0;
+    z-index: 98;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 /*estilos del header*/
 
 header{
 
-    background-color: palevioletred;
+    background-color: #0079ac;
+    box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 99;
 
 }
 
 header img{
-    height: 10vh;
-    width: 10vh;
-    display: inline;
-    padding-left: 70vw;
+    height: 5rem;
+    width: 5rem;
+    padding-left: 60vw;
+    z-index: 100;
 
 }
 
 nav{
     margin:0;
     display: inline-block;
-    margin: 1rem 1rem 2rem 4rem;
+    margin: 1rem 1rem 2rem 3rem;
+    
+
+    
 }
 
 nav a{
-    background-color: purple;
+    background-color: #47aed8;
     color: white;
     padding: 0.5rem;
-    border-radius: 20px;
-    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Gloria Hallelujah", cursive;
+
+}
+
+nav a:hover{
+    background-color:#19263b;
+}
+
+a:-webkit-any-link {
+
+    cursor: pointer;
+    text-decoration: none;
+}
+p{
+    color: black; 
+    font-family: "Gloria Hallelujah", cursive;
 }
 
 /*estilos de la pagina home*/
 
 main img{
-    width: 60vw;
+    width: 80vw;
     height: 20vw;
     border: 3px solid white;
 }
@@ -46,31 +73,49 @@ main img{
     text-align: center;
     padding-bottom: 10vh;
 }
+ h1{
+    
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: bold;
+    font-style: normal;  
+    font-size: xxx-large;
+    margin: 0.3rem; 
+    color: black; 
+    
+
+}
+ h2{
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: bold;
+    font-style: normal;  
+    font-size: x-large;
+    margin: 0.3rem;
+    color: black;   
+
+}
 .homesecondary{
     text-align: center;
     justify-content: center;
+    padding: 1rem 0 1rem 0;
 
 }
 .textsection{
-    position: relative;
-    top: 0;
-    left: 0;
     display: inline-block;
     max-width: 40vw;
     height: 10vw;
     text-align: justify;
     margin-right: 2rem;
     box-sizing: content-box;
-
+    vertical-align: top;
+    
 }
 .homesecondary p{
-    color:palevioletred;
+    color:black;
     display: inline;
-    width: 30vw;
-    position: relative;
-    bottom: 14vw; 
-    left: 1rem;
-   
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;  
 
 }
 
@@ -85,7 +130,7 @@ main img{
 
 /*estilo del footer*/
 footer{
-    background-color: palevioletred;
+    background-color: #0079ac;
     padding: 3vh;
     text-align: center;
     color: white;
@@ -96,15 +141,11 @@ footer{
 /*estilo de la pagina about*/
 .main_about{
     text-align: center;
-    color:palevioletred;
-    
-
 }
 
 .space{
-
-    padding: 1rem;
-    padding-right:40vw ;
+    vertical-align: top;
+    padding: 2rem 0 2rem 0;
 
 }
 
@@ -115,8 +156,47 @@ footer{
 }
 
 .space p{
+    vertical-align: top;
     display: inline-block;
     max-width: 40%;
     padding-left: 2rem;
-    position: absolute;
+    font-size: x-large;
+    
+}
+
+/*estilo contact page*/
+
+.maincontact{
+    text-align: center;
+}
+.maincontact img{
+    width: 60vw;
+    height: auto;
+}
+sectionContact{
+    text-align: center;
+}
+
+.sectionContact p{
+    width: 50vw;
+    display: block;
+    position: relative;
+    left: 25vw;
+    padding: 1rem;
+
+}
+.contact{
+    margin: 2rem;
+}
+
+.contact h3{
+    display: inline;
+    margin: 0 10vw 0 10vw;
+    padding: 1rem;
+    background-color: #0079ac;
+    border-radius: 10px;
+}
+
+.contact h3:hover{
+    background-color:#19263b;
 }
