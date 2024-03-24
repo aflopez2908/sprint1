@@ -1,5 +1,7 @@
 /*estilos generlas*/
-
+:root{
+    font-size: 16px;
+}
 body{
     background-color: #47aed8;
     margin: 0;
@@ -44,6 +46,7 @@ nav a{
     padding: 0.5rem;
     border-radius: 10px;
     font-family: "Gloria Hallelujah", cursive;
+    font-size: 3vh;
 
 }
 
@@ -66,9 +69,6 @@ span{
     font-weight: bold;
 }
 
-span:hover{
-    color: yellow;
-}
 /*estilos de la pagina home*/
 
 main img{
@@ -148,6 +148,14 @@ h1:hover{
 .homesecondary:hover{
     background-color:#19263b;
 }
+
+.homesecondary:hover p{
+    color:aqua;
+}
+.homesecondary:hover span{
+    color:yellow;
+}
+
 #home_text1 p{
     font-size: 1.8vw;
 }
@@ -180,6 +188,7 @@ footer{
 
 
 /*estilo de la pagina about*/
+
 .main_about{
     text-align: center;
 }
@@ -188,6 +197,19 @@ footer{
     vertical-align: top;
     padding: 2rem 0 2rem 0;
 
+}
+
+.space:hover{
+    background-color:#19263b;
+    
+}
+.space:hover p{
+    color:aqua;
+    
+}
+.space:hover span{
+    color:yellow;
+    
 }
 
 .space img{
@@ -201,8 +223,7 @@ footer{
     display: inline-block;
     max-width: 40%;
     padding-left: 2rem;
-    font-size: x-large;
-    
+    font-size: 2vw;
 }
 
 /*estilo contact page*/
@@ -233,10 +254,11 @@ footer{
 
 .contact h3{
     display: inline;
-    margin: 0 10vw 0 10vw;
+    margin: 0 10vw 10vw 10vw;
     padding: 1rem;
     background-color: #0079ac;
     border-radius: 10px;
+    font-size: 3vh;
 }
 
 .contact h3:hover{
