@@ -57,10 +57,18 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 p{
-    color: black; 
+    color: white;
     font-family: "Gloria Hallelujah", cursive;
 }
 
+span{
+    color:#0079ac;
+    font-weight: bold;
+}
+
+span:hover{
+    color: yellow;
+}
 /*estilos de la pagina home*/
 
 main img{
@@ -80,9 +88,10 @@ main img{
     font-style: normal;  
     font-size: xxx-large;
     margin: 0.3rem; 
-    color: black; 
-    
-
+    color: white; 
+}
+h1:hover{
+    color: yellow;
 }
  h2{
     font-family: "Gloria Hallelujah", cursive;
@@ -90,13 +99,13 @@ main img{
     font-style: normal;  
     font-size: x-large;
     margin: 0.3rem;
-    color: black;   
+    color: white;   
 
 }
 .homesecondary{
     text-align: center;
     justify-content: center;
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0 2rem 0;
 
 }
 .textsection{
@@ -110,7 +119,7 @@ main img{
     
 }
 .homesecondary p{
-    color:black;
+    color: white;
     display: inline;
     font-family: "Gloria Hallelujah", cursive;
     font-weight: 400;
@@ -126,6 +135,38 @@ main img{
     height: 20vw;
 
 }
+
+.homesecondary a{
+    background-color: #266983;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-family: "Gloria Hallelujah", cursive;
+
+}
+
+.homesecondary:hover{
+    background-color:#19263b;
+}
+#home_text1 p{
+    font-size: 1.8vw;
+}
+
+#home_text2{
+    padding: 1rem;
+    text-align: center;
+}
+
+#home_text2 p{
+    display: inline-block;
+    font-size: 2.3vw;
+    
+
+}
+#home_text2 a{
+    text-align: center;
+}
+
 
 
 /*estilo del footer*/
@@ -173,7 +214,7 @@ footer{
     width: 60vw;
     height: auto;
 }
-sectionContact{
+.sectionContact{
     text-align: center;
 }
 
@@ -183,6 +224,7 @@ sectionContact{
     position: relative;
     left: 25vw;
     padding: 1rem;
+    font-size: 4vh;
 
 }
 .contact{
