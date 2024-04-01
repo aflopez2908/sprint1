@@ -20,24 +20,21 @@ header{
     position: sticky;
     top: 0;
     z-index: 99;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 header img{
     height: 5rem;
     width: 5rem;
-    padding-left: 60vw;
-    z-index: 100;
-
+    padding-right: 3rem;
 }
 
 nav{
     margin:0;
     display: inline-block;
-    margin: 1rem 1rem 2rem 3rem;
-    
-
-    
+    margin: 1rem 1rem 2rem 3rem;    
 }
 
 nav a{
@@ -80,6 +77,9 @@ main img{
 .homeprincipal{
     text-align: center;
     padding-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
  h1{
     
@@ -103,34 +103,29 @@ h1:hover{
 
 }
 .homesecondary{
-    text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     padding: 1rem 0 2rem 0;
+    align-items:flex-start
 
 }
 .textsection{
-    display: inline-block;
     max-width: 40vw;
     height: 10vw;
     text-align: justify;
     margin-right: 2rem;
-    box-sizing: content-box;
     vertical-align: top;
-    
 }
 .homesecondary p{
     color: white;
-    display: inline;
     font-family: "Gloria Hallelujah", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: large;  
-
 }
 
 .homesecondary img{
-
-    display: inline-block;
     width: 20vw;
     height: 20vw;
 
@@ -166,7 +161,7 @@ h1:hover{
 }
 
 #home_text2 p{
-    display: inline-block;
+    display: flex;
     font-size: 2.3vw;
     
 
@@ -196,7 +191,9 @@ footer{
 .space{
     vertical-align: top;
     padding: 2rem 0 2rem 0;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .space:hover{
@@ -215,12 +212,10 @@ footer{
 .space img{
     height: 25vw;
     width: 25vw;
-    display: inline;
+    
 }
 
 .space p{
-    vertical-align: top;
-    display: inline-block;
     max-width: 40%;
     padding-left: 2rem;
     font-size: 2vw;
@@ -230,37 +225,66 @@ footer{
 
 .maincontact{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .maincontact img{
     width: 60vw;
     height: auto;
 }
 .sectionContact{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sectionContact p{
-    width: 50vw;
-    display: block;
-    position: relative;
-    left: 25vw;
+    text-align: center;
+    width: 60%;
     padding: 1rem;
     font-size: 4vh;
 
 }
 .contact{
     margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
 }
 
 .contact h3{
-    display: inline;
-    margin: 0 10vw 10vw 10vw;
     padding: 1rem;
     background-color: #0079ac;
     border-radius: 10px;
     font-size: 3vh;
 }
-
 .contact h3:hover{
     background-color:#19263b;
 }
+
+/*estilo de la pagina information*/
+
+.mainmoreinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    font-family: "Gloria Hallelujah", cursive;
+    border: 1px solid #000;
+    border-collapse: collapse; 
+    border-spacing: 5px;
+}
+
+td,th{
+    
+    border: 1px solid #000;
+    
+
+
+}
+
