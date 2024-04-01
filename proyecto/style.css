@@ -288,3 +288,29 @@ td,th{
 
 }
 
+/* estilo de la pagina benefits*/
+.mainBenefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calification{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    border: 2px solid black;
+    width: 60%;
+}
+.textsectionBenefits{
+    display: flex;
+    flex-direction: column;
+}
+.calification p{
+    padding: 1rem;
+    text-align: justify;
+}
+.calification img{
+    width:20vw;
+    height: 20vw;
+}
