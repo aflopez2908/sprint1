@@ -344,6 +344,7 @@ th{
     background-color: #19263b;
     border: 10px solid  #0079ac;
     transition: 500ms;
+    color:aqua;
 }
 .calification:hover h3{
     color: yellow;
