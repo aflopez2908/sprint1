@@ -566,4 +566,17 @@ th{
     .containertable table{
         width: 70vw;
     }
+
+    /**/
+    .calification{
+        flex-direction: column;
+        align-items: center;
+    }
+    .textsectionBenefits{
+        text-align: center;
+        
+    }
+    h3{
+        padding-bottom: 0;
+    }
 }
