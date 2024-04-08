@@ -12,9 +12,7 @@ a{
     color: white;
 }
 /*estilos del header*/
-
 header{
-
     background-color: #0079ac;
     box-shadow: 10px 12px 12px 11px rgba(0, 0, 0, 0.2);
     position: sticky;
@@ -22,7 +20,6 @@ header{
     z-index: 99;
     display: flex;
     justify-content: space-between;
-
 }
 
 header img{
@@ -44,7 +41,6 @@ nav a{
     border-radius: 10px;
     font-family: "Gloria Hallelujah", cursive;
     font-size: 3vh;
-
 }
 
 nav a:hover{
@@ -372,4 +368,202 @@ th{
 .stars{
     display: flex;
     justify-content: center;
+}
+
+/*estilo media query celular*/
+@media only screen and (max-width:769px) and (min-width:220px){
+
+    /*header*/
+    
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        position:static;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+
+        margin-bottom: 0.5rem;
+    }
+    header img{
+        text-align: center;
+        padding: 0 0 0 1rem;
+    }
+
+    /*home*/
+    #homesecondary1 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #homesecondary2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #homesecondary1 img ,#homesecondary2 img{
+        height: 35vw;
+        width: 40vw;
+
+    }
+    
+    #home_text1 , #home_text2 {
+        height: 100%;
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+        padding-left: 2.2rem;
+    }
+    #home_text1 p , #home_text2 p {
+        font-size: 3vh;
+        
+    
+    }
+
+    /*ABOUT*/
+    .main_about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .space{
+        flex-direction: column;
+
+    }
+    .space p{
+        text-align: justify;
+        font-size: 3vh;
+
+        
+    }
+
+    /*CONTACT*/
+    .maincontact{
+        text-align: center;
+    }
+    .sectionContact p{
+        padding: 0;
+    }
+    .contact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /*INFORMATION*/
+    .containertable{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 2rem;
+    }
+    .containertable table{
+        width: 70vw;
+    }
+
+    
+}
+
+/*estilo media query tablet*/
+
+@media only screen and (max-width:1024px) and (min-width:768px){
+
+    /*header*/
+    
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        position:static;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+
+        margin-bottom: 0.5rem;
+    }
+    header img{
+        text-align: center;
+        padding: 0 0 0 1rem;
+    }
+
+    /*home*/
+    #homesecondary1 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #homesecondary2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #homesecondary1 img ,#homesecondary2 img{
+        height: 35vw;
+        width: 40vw;
+
+    }
+    
+    #home_text1 , #home_text2 {
+        height: 100%;
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+        padding-left: 2.2rem;
+    }
+   
+
+    /*ABOUT*/
+    .main_about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .space{
+        flex-direction: column;
+
+    }
+    .space p{
+        text-align: justify;
+        font-size: 3vh;
+        
+    }
+
+    /*CONTACT*/
+    .maincontact{
+        text-align: center;
+    }
+    .sectionContact p{
+        padding: 0;
+    }
+    .contact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /*INFORMATION*/
+    .containertable{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 2rem;
+    }
+    .containertable table{
+        width: 70vw;
+    }
 }
