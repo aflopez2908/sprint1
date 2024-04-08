@@ -369,6 +369,57 @@ th{
     display: flex;
     justify-content: center;
 }
+    /*TIPS*/
+    .calification{
+        flex-direction: column;
+        align-items: center;
+    }
+    .textsectionBenefits{
+        text-align: center;
+        
+    }
+    h3{
+        padding-bottom: 0;
+    }
+
+/*raffle*/
+.mainRaffle{
+    display: flex;
+    width: 100vw;
+    height: 81vh;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.tittleRuffle{
+    text-align: center;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.formulario{
+    width: 30%;
+    display: flex;
+    font-family: "Gloria Hallelujah", cursive;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #0079ac ;
+    padding: 2rem;
+    background-color: #19263b;
+    color: white;
+    font-size: 1.211rem;
+    
+}
+
+.mapRaffle{
+    height: 25vw;
+    width: 25vw;
+}
+
+
+
 
 /*estilo media query celular*/
 @media only screen and (max-width:769px) and (min-width:220px){
@@ -467,6 +518,43 @@ th{
     }
     .containertable table{
         width: 70vw;
+    }
+    /*TIPS*/
+    .calification{
+        flex-direction: column;
+        align-items: center;
+    }
+    .textsectionBenefits{
+        text-align: center;
+        
+    }
+    h3{
+        padding-bottom: 0;
+    }
+    .mainBenefits p{
+        font-size: 1.2rem;
+        ;
+    }
+
+    /*raffle check*/
+    .mainRaffle{
+        flex-direction:column-reverse;
+        height: auto;
+        margin: 0;
+        width: auto;
+
+    }
+    .formulario{
+        width: 50%;
+    }
+    .formulario form{
+        margin: 2rem 0 2rem 0;
+        
+    }
+    .mapRaffle{
+        height: 30vw;
+        width: 50vw;
+        margin: 2rem 0 2rem 0;
     }
 
     
@@ -567,7 +655,7 @@ th{
         width: 70vw;
     }
 
-    /**/
+    /*TIPS*/
     .calification{
         flex-direction: column;
         align-items: center;
@@ -578,5 +666,30 @@ th{
     }
     h3{
         padding-bottom: 0;
+    }
+    .mainBenefits p{
+        font-size: 1.2rem;
+        ;
+    }
+
+    /*raffle check*/
+    .mainRaffle{
+        flex-direction:column-reverse;
+        height: auto;
+        margin: 0;
+        width: auto;
+
+    }
+    .formulario{
+        width: 50%;
+    }
+    .formulario form{
+        margin: 2rem 0 2rem 0;
+        
+    }
+    .mapRaffle{
+        height: 30vw;
+        width: 50vw;
+        margin: 2rem 0 2rem 0;
     }
 }
