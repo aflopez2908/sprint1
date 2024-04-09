@@ -369,18 +369,6 @@ th{
     display: flex;
     justify-content: center;
 }
-    /*TIPS*/
-    .calification{
-        flex-direction: column;
-        align-items: center;
-    }
-    .textsectionBenefits{
-        text-align: center;
-        
-    }
-    h3{
-        padding-bottom: 0;
-    }
 
 /*raffle*/
 .mainRaffle{
@@ -416,6 +404,9 @@ th{
     height: 25vw;
     width: 25vw;
     border-radius: 20px;
+}
+.titleRaffle{
+    text-align: center;
 }
 
 

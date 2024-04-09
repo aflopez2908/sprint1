@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raffle</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Gloria+Hallelujah&family=Oi&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Gloria+Hallelujah&family=Oi&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
 </head>
 <body>
@@ -17,78 +16,71 @@
             <a href="contact.html">Contact</a>
             <a href="information.html">Information</a>
             <a href="benefitsTips.html">Tips</a>
-            <a href="raffle.html">were</a>
+            <a href="raffle.html">Raffle</a>
         </nav>
         <img src="images/logo.png" alt="company logo">
-
     </header>
 
-    <main >
-        <div class="tittleRuffle">
+    <main>
+        <div class="titleRaffle">
             <h1>Raffle</h1>
-            <h2>You can colaborate to hold an exhibition event and participate in a raffle to win an easel</h2>
-
+            <h2>You can collaborate to hold an exhibition event and participate in a raffle to win an easel</h2>
         </div>
         
         <div class="mainRaffle">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.0742
-        463292586!2d31.12992057484665!3d29.977296174957484!2m3!1f0!2f0!3f0!3m2!1i10
-        24!2i768!4f13.1!3m3!1m2!1s0x14584f7de239bbcd%3A0xca7474355a6e368b!2sPir%C3%
-        A1mides%20de%20Giza!5e0!3m2!1ses!2sco!4v1712606046656!5m2!1ses!2sco"
-         style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade" class="mapRaffle"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.0742463292586!2d31.12992057484665!3d29.977296174957484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584f7de239bbcd%3A0xca7474355a6e368b!2sPir%C3%A1mides%20de%20Giza!5e0!3m2!1ses!2sco!4v1712606046656!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapRaffle"></iframe>
 
-         <div class="formulario">
-            <form action="raffle.html" method="get">
-                <label for="firstname">First Name</label>
-                <input type="text" id="name" name="Fname" required>
-                <label for="lastname">Last Name</label >
-                <input type="text" id="lastname" name="lname" required>
-                <label for="reu">Choose meet or zoom</label>
-                <select name="reunion" id="reu" required >
-                    <option value="" selected></option>
-                    <option value="value2">Meet</option>
-                    <option value="value3">Zoom</option>
-                </select>
-                <label for="date">Choose date</label>
-                <input type="date" id="date" name="date" value="2023-04-08" min="2024-04-08" max="2025-04-08" />
-                <label for="pay">Payment Options</label>
+            <div class="formulario">
+                <form action="raffle.html" method="get">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="fname" required>
 
-                <div class="radio">
-                <input type="radio" name="pay" id="cash" required value="Cash">
-                <label for="radio">Cash</label>
-                </div>
-                
-                <div class="radio"><input type="radio" name="pay" id="CreditCard" value="CreditCard">
-                    <label for="radio">CreditCard</label></div>
-                <div class="radio"><input type="radio" name="pay" id="DebitCard" value="DebitCard">
-                    <label for="radio">DebitCard</label></div>
-                
-                
-                
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lname" required>
+                    
+                    <label for="reu">Choose meet or zoom</label>
+                    <select name="reunion" id="reu" required>
+                        <option value="" selected disabled hidden>Select an option</option>
+                        <option value="Meet">Meet</option>
+                        <option value="Zoom">Zoom</option>
+                    </select>
 
-                <label for="message">Message (Optional)</label>
-                <textarea name="comments" id="message" cols="20" rows="10"></textarea>
+                    <label for="date">Choose date</label>
+                    <input type="date" id="date" name="date" value="2023-04-08" min="2024-04-08" max="2025-04-08">
 
-                <div>
-                    <input type="checkbox" name="terms" id="check" required>
-                    <label for="checkbox"> i accept terms and conditions..</label>
-                    <button type="submit">Send</button>
-                </div>
-                
-                
+                    <fieldset>
+                        <legend>Payment Options</legend>
+                        <div class="radio">
+                            <input type="radio" name="pay" id="cash" required value="Cash">
+                            <label for="cash">Cash</label>
+                        </div>
+                        
+                        <div class="radio">
+                            <input type="radio" name="pay" id="creditCard" value="CreditCard">
+                            <label for="creditCard">Credit Card</label>
+                        </div>
+                        
+                        <div class="radio">
+                            <input type="radio" name="pay" id="debitCard" value="DebitCard">
+                            <label for="debitCard">Debit Card</label>
+                        </div>
+                    </fieldset>
 
-                
+                    <label for="message">Message (Optional)</label>
+                    <textarea name="comments" id="message" cols="20" rows="10"></textarea>
 
-            </form>
-
-                                            
-         </div>
+                    <div>
+                        <input type="checkbox" name="terms" id="check" required>
+                        <label for="check">I accept terms and conditions.</label>
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
+
     <footer>
-        Create By: Alvaro Felipe Lopez Russi
+        Created By: Alvaro Felipe Lopez Russi
     </footer>
-    
 </body>
 </html>
