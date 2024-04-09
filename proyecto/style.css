@@ -385,8 +385,6 @@ th{
 /*raffle*/
 .mainRaffle{
     display: flex;
-    width: 100vw;
-    height: 81vh;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
@@ -400,6 +398,7 @@ th{
     width: 30%;
     display: flex;
     font-family: "Gloria Hallelujah", cursive;
+    margin: 1rem;
 }
 
 .formulario form{
